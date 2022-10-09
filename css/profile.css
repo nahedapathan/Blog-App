@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:#f5f5f5;
+    font-family:sans-serif;
+    font-weight:300;
+}
+.profile-header-container{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+
+}
+.bg-img-container{
+    background-image: url("../images/darknight.jpg");
+    height: 400px;
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.profile-details-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    background-color: #f5f5f5;
+    
+}
+.profile-details-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: -17vh
+    ;
+}
+.profile-details-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-details-info h1{
+    font-size: 2rem;
+    color: gray;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.profile-details-info p{
+    font-size: 1.1rem;
+    color: gray;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.profile-details-info-btn button{
+    background-color: #fff;
+    border: 1px solid rgb(139,101,101);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.3s;
+}
